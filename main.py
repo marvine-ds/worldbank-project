@@ -1,14 +1,17 @@
-import os
-from dotenv import load_dotenv
+from fetch import fetch_world_bank_data, fetch_country_metadata
+from cleandata import clean_data
 
-load_dotenv()
-
-print("HOST:", os.getenv("DB_HOST"))
-print("USER:", os.getenv("DB_USER"))
-print("PASS:", os.getenv("DB_PASSWORD"))
-
-from load_to_mysql import test_connection
 
 if __name__ == "__main__":
-    test_connection()
+    print("Main file is running...")
+
+    real_country_codes = fetch_country_metadata()
+    raw_records = fetch_world_bank_data()
+    cleaned_records = clean_data(raw_records, real_country_codes)
+
+    print("Sample cleaned record:")
+    print(cleaned_records[0])
+
+
+
 
