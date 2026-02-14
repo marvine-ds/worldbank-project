@@ -129,6 +129,18 @@ This project enables:
 By structuring global economic data in a relational system, this project supports data-driven policy planning and international development prioritization.
 
 ---
+## 📊 Planned Analysis & Dashboard Questions
+
+Using Power BI, this dataset will be used to analyze:
+
+1. Which countries show sustained GDP growth alongside declining unemployment?
+2. How does population growth compare to GDP growth across countries?
+3. Which countries are experiencing rising inflation and unemployment simultaneously?
+4. Which regions or income groups are lagging in GDP growth?
+5. Are long-term unemployment reduction strategies producing measurable results?
+
+The goal of the dashboard is to identify economies demonstrating sustainable growth and to support evidence-based resource allocation decisions.
+
 
 ## 👨‍💻 Author
 
