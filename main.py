@@ -1,5 +1,6 @@
 from fetch import fetch_world_bank_data, fetch_country_metadata
 from cleandata import clean_data
+from load_to_mysql import insert_data
 
 
 if __name__ == "__main__":
@@ -9,8 +10,8 @@ if __name__ == "__main__":
     raw_records = fetch_world_bank_data()
     cleaned_records = clean_data(raw_records, real_country_codes)
 
-    print("Sample cleaned record:")
-    print(cleaned_records[0])
+    insert_data(cleaned_records)
+
 
 
 
