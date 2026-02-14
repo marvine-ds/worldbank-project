@@ -133,4 +133,4 @@ By structuring global economic data in a relational system, this project support
 ## 👨‍💻 Author
 
 Marvine Ekina  
-Data Analyst | Data Engineering Enthusiast
+Data Analyst | Data Scientist Enthusiast
