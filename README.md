@@ -119,7 +119,7 @@ The table also includes an `is_aggregate` flag to distinguish:
 
 ## 📈 Strategic Impact
 
-This project enables:
+This project enables:S
 
 - Measuring whether economic strategies reduce unemployment
 - Evaluating whether GDP growth is sustainable
